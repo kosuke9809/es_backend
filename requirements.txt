@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+torch
+transformers
+mecab-python3
+fugashi
+ipadic
