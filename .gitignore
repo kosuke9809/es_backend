@@ -1,3 +1,4 @@
 api/bert/model/pytorch_model.bin
-/.env
 __pycache__/
+/.env
+/.DS_Store
