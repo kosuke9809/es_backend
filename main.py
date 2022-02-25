@@ -5,6 +5,8 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 app.include_router(bert.router)
 app.include_router(mecab.router)
+print("ロード...")
+
 
 origins = [
     "http://localhost:3000",

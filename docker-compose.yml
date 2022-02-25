@@ -7,7 +7,7 @@ services:
     working_dir: '/backend'
     tty: true
     volumes:
-      - ./app_backend:/backend
+      - .:/backend
     command: uvicorn main:app --reload --host 0.0.0.0 --port 8000
     ports:
       - "8000:8000"

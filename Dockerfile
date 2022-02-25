@@ -10,7 +10,7 @@ ENV TZ JST-9
 ENV TERM xterm
 ENV MECABRC /etc/mecabrc
 RUN mkdir  backend
-COPY app_backend/requirements.txt /backend/
+COPY requirements.txt /backend/
 EXPOSE 8000
 
 

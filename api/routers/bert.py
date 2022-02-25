@@ -1,11 +1,13 @@
+import os
 from fastapi import APIRouter
 from api.bert.bert import BertAPI
 import api.schemas.bert as bert_schema
+from dotenv import load_dotenv
 
-
+load_dotenv()
 router = APIRouter()
 bert = BertAPI()
-bert.load("/Users/uehatakosuke/dev_es/backend/api/bert/model")
+bert.load(os.environ["BERT_MODEL_PATH"])
 
 @router.post("/bert")
 async def predict_bert(text:bert_schema.BertPredict ) -> bert_schema.BertPredictResponse:
