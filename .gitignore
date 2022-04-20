@@ -4,13 +4,13 @@ __pycache__/
 /.DS_Store
 
 api/word2vec/model.vec
-api/__pycache__/__init__.cpython-38.pyc
-api/bert/__pycache__/__init__.cpython-38.pyc
-api/bert/__pycache__/bert.cpython-38.pyc
-api/mecab/__pycache__/__init__.cpython-38.pyc
-api/routers/__pycache__/__init__.cpython-38.pyc
-api/routers/__pycache__/bert.cpython-38.pyc
-api/routers/__pycache__/mecab.cpython-38.py
-api/schemas/__pycache__/__init__.cpython-38.pyc
-api/schemas/__pycache__/bert.cpython-38.pyc
-api/schemas/__pycache__/mecab.cpython-38.pyc
+api/__pycache__/
+api/bert/__pycache__/
+api/bert/__pycache__/
+api/mecab/__pycache__/
+api/routers/__pycache__/
+api/routers/__pycache__/
+api/routers/__pycache__/
+api/schemas/__pycache__/
+api/schemas/__pycache__/
+api/schemas/__pycache__/
