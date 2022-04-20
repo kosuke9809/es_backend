@@ -6,3 +6,4 @@ mecab-python3
 fugashi
 ipadic
 python-dotenv
+gensim

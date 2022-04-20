@@ -30,4 +30,5 @@ class MeCabAPI:
         l.append(dict)
     # res = {"data":keywords}
     res = l
-    return res
+    return res,keywords
+  
