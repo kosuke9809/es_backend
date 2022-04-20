@@ -1,4 +1,5 @@
 FROM python:3.8.12-slim-buster
+USER root
 
 RUN apt-get update
 RUN apt-get -y install locales && \
@@ -9,6 +10,7 @@ ENV LC_ALL ja_JP.UTF-8
 ENV TZ JST-9
 ENV TERM xterm
 ENV MECABRC /etc/mecabrc
+ENV PYTHONDONTWRITEBYTECODE 1
 RUN mkdir  backend
 COPY requirements.txt /backend/
 EXPOSE 8000
